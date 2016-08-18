@@ -1,0 +1,52 @@
+{ "articles" :
+  [
+    {
+      "url": "http://www.earwolf.com/show/beautiful-anonymous/",
+      "title": "Beautiful Stories From Anonymous People",
+      "author": "Chris Gethard",
+      "dates_active": "March 2016 to present"
+    },
+    {
+      "url": "http://www.npr.org/podcasts/510310/npr-politics-podcast",
+      "title": "NPR Politics",
+      "author": "Sam Sanders, Tamara Keith, Asma Khalid, Scott Detrow, Domenico Montanaro, Ron Elving, & more",
+      "dates_active": "November 2015 to present"
+    },
+    {
+      "url": "http://www.thisamericanlife.org",
+      "title": "This American Life",
+      "author": "Ira Glass",
+      "dates_active": "November 1995 to present"
+    },
+    {
+      "url": "http://www.southernfoodways.org/gravy-format/gravy-podcast/",
+      "title": "Gravy",
+      "author": "Tina Antolini & The Southern Foodways Alliance",
+      "dates_active": "November 2014 to present"
+    },
+    {
+      "url": "http://www.npr.org/podcasts/510289/planet-money/",
+      "title": "Planet Money",
+      "author": "NPR",
+      "dates_active": "2008 to present"
+    },
+    {
+      "url": "https://gimletmedia.com/show/mystery-show/",
+      "title": "Mystery Show",
+      "author": "Starlee Kine",
+      "dates_active": "May to August 2015"
+    },
+    {
+      "url": "https://serialpodcast.org",
+      "title": "Serial",
+      "author": "Sarah Koenig",
+      "dates_active": "October 2014 to March 2016"
+    },
+    {
+      "url": "http://www.limetownstories.com",
+      "title": "Limetown",
+      "author": "Two-Up Productions",
+      "dates_active": "July to December 2015"
+    }
+  ]
+}

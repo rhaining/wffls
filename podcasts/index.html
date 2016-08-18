@@ -3,51 +3,51 @@
 <title>articles</title>
 
 <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-<link href='style.css' rel='stylesheet' type='text/css'>
+<link href='/style.css' rel='stylesheet' type='text/css'>
 
-<meta property="og:title" content="a few of my favorite articles" />
+<meta property="og:title" content="a few of my favorite podcasts" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="http://wffls.com/" />
+<meta property="og:url" content="http://wffls.com/podcasts" />
 <meta property="og:image" content="http://en.gravatar.com/userimage/998128/bff6202db0791dc717a3f768dc357b2a.jpg?size=1000" />
-<meta property="og:description" content="a handful of articles i've loved over the years" />
+<meta property="og:description" content="a handful of podcasts i love" />
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@tolar" />
 <meta name="twitter:creator" content="@tolar" />
-<meta name="twitter:title" content="a few of my favorite articles" />
+<meta name="twitter:title" content="a few of my favorite podcasts" />
 <meta name="twitter:image" content="http://en.gravatar.com/userimage/998128/bff6202db0791dc717a3f768dc357b2a.jpg?size=1000" />
-<meta name="twitter:description" content="a handful of articles i've loved over the years" />
+<meta name="twitter:description" content="a handful of podcasts i love" />
 
 <script>
-function loadArticles() {
+function loadPodcasts() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
       var obj = JSON.parse(xhttp.responseText);
-      var articles = obj["articles"];
+      var podcasts = obj["podcasts"];
 
       var buffer = '';
-      for(var i=0; i < articles.length; i++){
-        var a = articles[i];
+      for(var i=0; i < podcasts.length; i++){
+        var a = podcasts[i];
         //var line = '<li><a href="' + a["url"] + '">' + a["title"] + '</a>, by ' + a["author"] + ' <span class="published_on">' + a["published_on"] + '</span></li>\n';
         var line = '<li><a href="' + a["url"] + '">' + a["title"] + '</a>, by ' + a["author"] + '</li>\n';
         buffer += line;
       }
       document.getElementById("articles").innerHTML = buffer;
-     
+
     }
   };
-  xhttp.open("GET", "articles.json", true);
+  xhttp.open("GET", "podcasts.json", true);
   xhttp.send();
 }
 </script>
 
 </head>
 
-<body onload="loadArticles();">
+<body onload="loadPodcasts();">
 
 <div id="header">
-  a few of my favorite articles
+  a few of my favorite podcasts
 </div>
 
 <ul id="articles"></ul>
