@@ -1,0 +1,34 @@
+body{
+  font-family: Raleway, sans-serif;
+  color: #444444;
+  padding: 20pt;
+}
+div#header{
+  font-size: 2em;
+}
+div#footer{
+  font-size: 0.8em;
+  float: right;
+  font-style: italic;
+  padding-top: 2em;
+}
+li{
+  font-size: 1.4em;
+  line-height: 1.2em;
+  margin: 1em;
+  list-style-type: circle;
+}
+a{
+  text-decoration: none;
+}
+a, a:visited{
+  color: #FF4C3B;
+}
+a:hover{
+  color: #CF1D11;
+}
+li span.published_on{
+  color: #ddd;
+  font-style: italic;
+  font-size: 0.9em;
+}

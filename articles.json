@@ -1,0 +1,64 @@
+{ "articles" : 
+  [
+    {
+      "url": "http://www.bloomberg.com/graphics/2015-paul-ford-what-is-code/",
+      "title": "What is Code?",
+      "author": "Paul Ford",
+      "published_on": "June 11, 2015"
+    },
+    {
+      "url": "http://www.newyorker.com/magazine/2013/10/28/now-we-are-five",
+      "title": "Now We Are Five",
+      "author": "David Sedaris",
+      "published_on": "October 28, 2013"
+    },
+    {
+      "url": "https://itunes.apple.com/us/app/fish-a-tap-essay/id510560804?mt=8",
+      "title": "Fish: a tap essay",
+      "author": "Robin Sloan",
+      "published_on": "March 21, 2012"
+    },
+    {
+      "url": "http://grantland.com/features/looking-back-hunter-s-thompson-classic-story-kentucky-derby/",
+      "title": "The Kentucky Derby Is Decadent and Depraved",
+      "author": "Hunter S. Thompson",
+      "published_on": "June 1970"
+    },
+    {
+      "url": "http://writerunderground.com/2011/04/28/ira-glass-on-creativity-or-the-gap-between-our-taste-and-our-work/",
+      "title": "On Creativity",
+      "author": "Ira Glass",
+      "published_on": "August 18, 2009"
+    },
+    {
+      "url": "http://clatl.com/atlanta/late-night-magic-at-mjq-an-oral-history/Content?oid=3336840&showFullText=true",
+      "title": "Late-night magic at MJQ: An oral history",
+      "author": "Chad Radford",
+      "published_on": "June 16, 2011"
+    },
+    {
+      "url": "http://www.kaylinngilstrap.com/southern-comfort/",
+      "title": "Southern Comfort",
+      "author": "Kaylinn Gilstrap",
+      "published_on": "January 2014"
+    },
+    {
+      "url": "http://cdixon.org/2009/09/19/climbing-the-wrong-hill/",
+      "title": "Climbing the wrong hill",
+      "author": "Chris Dixon",
+      "published_on": "September 19, 2009"
+    },
+    {
+      "url": "http://bittersoutherner.com/alton-brown",
+      "title": "Alton Brown",
+      "author": "Chuck Reece",
+      "published_on": "April 13, 2016"
+    },
+    {
+      "url": "http://www.apple.com/hotnews/thoughts-on-flash/",
+      "title": "Thoughts on Flash",
+      "author": "Steve Jobs",
+      "published_on": "April 2010"
+    }
+  ]
+}
