@@ -34,7 +34,7 @@ function loadArticles() {
         buffer += line;
       }
       document.getElementById("articles").innerHTML = buffer;
-     
+
     }
   };
   xhttp.open("GET", "articles.json", true);
@@ -53,7 +53,8 @@ function loadArticles() {
 <ul id="articles"></ul>
 
 <div id="footer">
-  look at your fish
+  look at your fish<br/>
+  <a href="/podcasts">a few of my favorite podcasts</a>
 </div>
 
 </body>
