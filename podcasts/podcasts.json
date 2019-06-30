@@ -1,5 +1,5 @@
-{ "podcasts" :
-  [
+{
+  "podcasts": [
     {
       "url": "http://www.earwolf.com/show/beautiful-anonymous/",
       "title": "Beautiful Stories From Anonymous People",
@@ -47,6 +47,12 @@
       "title": "Serial",
       "author": "Sarah Koenig",
       "dates_active": "October 2014 to March 2016"
+    },
+    {
+      "url": "https://www.maximumfun.org/shows/judge-john-hodgman",
+      "title": "Judge John Hodgman",
+      "author": "John Hodgman & Jesse Thorn",
+      "dates_active": "2007 to present"
     },
     {
       "url": "http://www.limetownstories.com",
